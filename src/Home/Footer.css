@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    bottom: 0;
+}
+
+.footer ul {
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+    margin: 4rem auto;
+    width: 80%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer__nav__btn.disable__for__smlrscreens {
+        display: none;
+    }
+}
+
+.footer ul li {
+    font-weight: 600;
+    margin: 0 0.7rem;
+    margin-top: 1rem;
+}
+
+.footer ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+

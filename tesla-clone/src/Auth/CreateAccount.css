@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mohave:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Nothing+You+Could+Do&display=swap');
+
+.createAccountPage {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.createAccountBody {
+    position: absolute;
+    top: 12%;
+    width: 35rem;
+    left: 50%; 
+    transform: translateX(-50%);
+    color: #5c5d61;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.createAccountTitle {
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+    color: #000;
+}
+
+.market {
+    padding: 0 3rem;
+}
+
+.location {
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 2rem;
+    padding: 0.8rem 1.8rem;
+    width: 30rem;
+    border: transparent;
+    cursor: pointer;
+}
+
+#location {
+    outline: none;
+    width: 26rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.language {
+    margin-top: 1rem;
+}
+
+#language {
+    padding: 0 3rem;
+}
+
+.infoCreate {
+    position: absolute;
+    object-fit: contain;
+    width: 2.5rem;
+    flex: 1;
+    left: 45%;
+    cursor: pointer;
+} 
+
+.languageDiv {
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 2rem;
+    padding: 0.8rem 1.8rem;
+    width: 30rem;
+    border: transparent;
+    cursor: pointer;
+}
+
+.languageSelector {
+    outline: none;
+    width: 26rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.firstNameDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.firstName {
+    padding: 0 3rem;
+}
+
+.firstNameInput {
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 2rem;
+    padding: 1.2rem 1.8rem;
+    width: 30rem;
+    border: transparent;
+}
+
+.firstNameInput:focus {
+    outline: none;
+}
+
+.lastNameDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.lastName {
+    padding: 0 3rem;
+}
+
+.lastNameInput {
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 2rem;
+    padding: 1.2rem 1.8rem;
+    width: 30rem;
+    border: transparent;
+}
+
+.lastNameInput:focus {
+    outline: none;
+}
+
+.emailNewUserDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.emailNewUser {
+    padding: 0 3rem;
+}
+
+.emailNewUserInput {
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 2rem;
+    padding: 1.2rem 1.8rem;
+    width: 30rem;
+    border: transparent;
+}
+
+.emailNewUserInput:focus {
+    outline: none;
+}
+
+.passwordNewUserDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.passwordNewUser {
+    padding: 0 3rem;
+}
+
+.passwordNewUserInput {
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 2rem;
+    padding: 1.2rem 1.8rem;
+    width: 30rem;
+    border: transparent;
+}
+
+.passwordNewUserInput:focus {
+    outline: none;
+}
+
+.newAccountRegBox {
+    margin-top: 2rem;
+}
+
+.toSignInDiv {
+    margin-top: 8rem;
+}
+
+.createAccountFooter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 1.5rem;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    width: 30rem;
+}
+
+.createAccountFooter > div {
+    cursor: pointer;
+}

@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mohave:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Nothing+You+Could+Do&display=swap');
+
+
+.loginForm {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signIn {
+    position: absolute;
+    top: 12%;
+    width: 35rem;
+    left: 50%; 
+    transform: translateX(-50%);
+    color: #5c5d61;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.signInTitle {
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+
+.emailHead {
+    margin-bottom: 0.6rem;
+    display: grid;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.emailTitle {
+    padding: 0.5rem 2rem;
+}
+
+.info {
+    position: absolute;
+    object-fit: contain;
+    width: 2.5rem;
+    flex: 1;
+    left: 37%;
+    cursor: pointer;
+}
+
+.tooltipLink {
+    color: #5c5d61;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+
+.tooltipLink:hover {
+    border-bottom: 2px solid #000;
+}
+
+.loginEmailInput {
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 2rem;
+    padding: 1.2rem 2rem;
+    width: 30rem;
+    border: transparent; 
+}
+
+.emailInput:focus {
+    outline: none !important;
+}
+
+.passwordBox {
+    display: grid;
+    cursor: pointer;
+    gap: 0.1rem;
+}
+
+.passwordTitle {
+    padding: 0.5rem 2rem;
+}
+
+.passwordInput {
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 2rem;
+    padding: 1.2rem 2rem;
+    width: 30rem;
+    border: transparent; 
+}
+
+.signInBox {
+    margin: 3rem 0;
+}
+
+.forgotLogin {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+    width: 30rem;  
+}
+
+.forgotLogin a {
+    color: #5c5d61;
+    font-weight: 500;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.lineDivider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    width: 30rem;
+}
+
+.lineDivider hr {
+    width: 11rem;
+    opacity: 0.2;
+}
+
+.createAccount--login {
+    font-size: 1.2rem;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 5rem;
+    cursor: pointer;
+    width: 30rem;
+}
+
+.loginFooter {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 510;
+    color: #5c5d61;
+    text-align: center;
+    justify-content: center;
+    margin-top: 9rem;
+    padding: 1rem;
+    width: 30rem;
+}
+
+.loginFooter > div {
+    cursor: pointer;
+}

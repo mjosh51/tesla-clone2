@@ -1,0 +1,70 @@
+.car {
+  display: grid;
+  place-items: center;
+  padding: 4rem;
+  height: 100vh;
+  width: 100%;
+}
+
+.imgOfCar {
+  width: 100%;
+  z-index: 3;
+}
+
+@media screen and (max-width: 600px){
+  /* .car {
+    margin-top: 8rem;
+    width: 80%;
+  } */
+}
+
+/* .carImage > img {
+  object-fit: contain;
+  width: 100%;
+} */
+
+.carInfoBody {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  bottom: 0;
+}
+
+.carModel {
+  font-weight: 500;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.carActions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .carActions {
+    display: grid;
+    gap: 1rem;
+  }
+}
+
+.carActions > button {
+  width: 230px;
+  margin-bottom: 30px;
+}
+
+.carInfo {
+  max-width: 350px;
+  text-align: center;
+  font-size: smaller;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #393c41;
+}
+
+.carInfo > span {
+  color: #3e6be2;
+  cursor: pointer;
+}

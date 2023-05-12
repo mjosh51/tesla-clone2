@@ -1,0 +1,91 @@
+/* Be sure to use Styled components instead of this css styles here */
+
+.top__block {
+    top: 0;
+    position: fixed;
+    padding: 3rem 5rem;
+    height: 1rem;
+    width: 100%;
+    background: #fff;
+    z-index: 5;
+}
+
+.blurOverlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(.8rem);
+}
+
+.blurOverlay.is-active {
+    display: block;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    z-index: 11;
+    top: 9%;
+    left: 0;
+    right: 0;
+    padding: 2rem 5rem;
+    color: #393c41;
+}
+
+.header__brandImage {
+    object-fit: contain;
+    width: 10rem;
+    flex: 1;
+    left: 5%;
+}
+
+.header__middleLinks {
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.headerBtn {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0.8rem 1.2rem;
+    color: var(--secondary-color);
+    border-radius: 1rem;
+    transition: background-color 0.3s cubic-bezier(0.5, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+.headerBtn.hide {
+    display: none;
+}
+
+.headerBtn:hover {
+    background: #0000000d;
+}
+
+.header__right {
+    display: flex;
+    position: absolute;
+    right: 2%;
+}
+
+.headerBtn.homeMenu {
+    cursor: pointer;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .header__middleLinks {
+        display: flex;
+    }
+
+    .headerBtn.hide {
+        display: flex;
+    }
+}

@@ -1,0 +1,13 @@
+.loginFooter {
+    text-transform: capitalize;
+    bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 510;
+    color: #5c5d61;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

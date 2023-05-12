@@ -1,0 +1,46 @@
+.loginHeader {
+    position: sticky;
+    display: flex;
+    top: 0;
+    padding: 2rem 0;
+    padding-left: 3rem;
+    background: #fff;
+    width: 100%;
+    z-index: 5;
+}
+
+.loginBrandImage {
+    object-fit: contain;
+    width: 10rem;
+    flex: 1;
+    left: 5%;
+}
+
+.globe_icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.headerRight {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 1.5%;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.headerRight:hover {
+    background: #0000000d;
+}
+
+.langBtn {
+    padding: auto;
+    padding-left: 0.5rem;
+}

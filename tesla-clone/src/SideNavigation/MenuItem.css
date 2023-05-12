@@ -1,0 +1,12 @@
+.menuItem {
+    /* border-bottom: 1px solid #d0d1d2; */
+    text-align: left;
+    padding: 1rem;
+}
+
+.menuItem > span {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #393c41;
+    cursor: pointer;  
+}
